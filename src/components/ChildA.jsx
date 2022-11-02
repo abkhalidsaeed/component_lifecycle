@@ -20,6 +20,7 @@ class ChildA extends Component {
     console.log("ChildA Unmount");
   }
   render() {
+    console.log("ChildA Render")
     return (
       <>
         <h2>Child A</h2>

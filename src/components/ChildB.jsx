@@ -19,7 +19,8 @@ class ChildB extends Component {
     componentWillUnmount(){
       console.log("ChildB Unmount");
     }
-    render() { 
+    render() {
+      console.log("ChildB Render") 
         return (
             <>
             <h3>Child B</h3>
